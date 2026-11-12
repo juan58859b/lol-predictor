@@ -1,0 +1,88 @@
+{
+  "prediccion": {
+    "competicion": "Worlds 2026",
+    "datos": {
+      "filtro_temporal": "solo mapas de dias anteriores al de la emision y el evento; zona horaria fuente no garantizada",
+      "hash_mapas_reconstruidos": "83aa1d4147292ebf79b081336311f0e4f9de706c6901a835548a9ff5373e9466",
+      "hash_oficial_zip": "982e72d0ce97d5ab0fca153e56c42a25d30ca46a3d6bf9ee1eb40a1b03dca07b",
+      "hash_raw_oracle_2026": "2374ae616a69d6d643b645d4c646b0fe9ba1fc08b16dce152feb567995234590",
+      "hist_2023_2025": 31344,
+      "mapas_entrenamiento_tasa_azul": 21300,
+      "oe_2026": 9857,
+      "periodo_entrenamiento": "2023-2024",
+      "reconstruidos_nov_2026": 21,
+      "ultimo_mapa_2026_fecha_sintetica": "2026-11-09 01:00:00"
+    },
+    "emitido_utc": "2026-11-12T06:32:55.398564Z",
+    "equipo_a": "Gen.G",
+    "equipo_b": "Bilibili Gaming",
+    "inicio_utc": "2026-11-14T19:00:00Z",
+    "mejor_de": 5,
+    "metodologia": {
+      "limitaciones": "Sin lado inicial verificado, sin modelo BoN de dependencia entre mapas; timestamps manuales sinteticos; prediccion retrospectivamente no seleccionada",
+      "p_serie": "BoN por recurrencia con p por mapa; independencia condicional; lados 50/50 hipoteticos",
+      "premisa": "B3 referencia; C18 candidato no confirmado; 3a inconclusa"
+    },
+    "modelos": {
+      "B3": {
+        "distribucion_5050": {
+          "0-3": 0.07715488538240423,
+          "1-3": 0.13292618299416623,
+          "2-3": 0.15267445509400587,
+          "3-0": 0.18939894116156158,
+          "3-1": 0.24189113089033532,
+          "3-2": 0.2059544044775268
+        },
+        "p_mapa_equipo_a_azul": 0.6055002762923889,
+        "p_mapa_equipo_a_rojo": 0.5430654287854915,
+        "p_mapa_lados_5050": 0.5742828525389402,
+        "p_serie_equipo_a_5050_independiente": 0.6372444765294237,
+        "p_serie_equipo_a_azul_impares": 0.6486813332810177,
+        "p_serie_equipo_a_rojo_impares": 0.6262332237114472,
+        "parametros_congelados": {
+          "K": 24,
+          "regresion_anual": 0.25,
+          "ventaja_lado": true
+        },
+        "rating_equipo_a": 1858.3951584076694,
+        "rating_equipo_b": 1806.1820021215183,
+        "reproduccion_3a": 9674
+      },
+      "C18": {
+        "distribucion_5050": {
+          "0-3": 0.0680701776738267,
+          "1-3": 0.1208301728151028,
+          "2-3": 0.14298900694796088,
+          "3-0": 0.20715326044432955,
+          "3-1": 0.2537456792978969,
+          "3-2": 0.20721170282088316
+        },
+        "p_mapa_equipo_a_azul": 0.6225410886129875,
+        "p_mapa_equipo_a_rojo": 0.5608471629851133,
+        "p_mapa_lados_5050": 0.5916941257990505,
+        "p_serie_equipo_a_5050_independiente": 0.6681106425631096,
+        "p_serie_equipo_a_azul_impares": 0.6791932746225284,
+        "p_serie_equipo_a_rojo_impares": 0.6575349018499199,
+        "parametros_congelados": {
+          "K": 32,
+          "regresion_anual": 0.5,
+          "ventaja_lado": true
+        },
+        "rating_equipo_a": 1878.5808526248793,
+        "rating_equipo_b": 1813.875418150473,
+        "reproduccion_3a": 9674
+      }
+    },
+    "partido_id": "WORLDS2026-FINAL-GEN-BLG",
+    "schema": "lol_predictor_forecast_v0.1",
+    "teamid_a": "oe:team:50f58982d91a36557ec8aec52ab014f",
+    "teamid_b": "oe:team:d356a144644879dabb5f34cd99c886d"
+  },
+  "registro": {
+    "archivo": "WORLDS2026-FINAL-GEN-BLG.json",
+    "hash_prediccion": "f7c195c876d634b3aa288eb87a6fd78f887b93ed1567205c0ead3837a144d39a",
+    "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash_registro": "87f975522e7d21f658db72d17dfd26b5b1434d97f916b9fe0580e46043874993",
+    "partido_id": "WORLDS2026-FINAL-GEN-BLG"
+  }
+}
